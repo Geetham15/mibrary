@@ -1,0 +1,45 @@
+
+ {
+    "type":"FeatureCollection",
+    "features": [
+        {
+            "type":"Feature", 
+            "properties": {
+                "bookId": "ABC123",
+                "Author" : "Geetha",
+                "Address" : "3540 Beaver Rd NW",
+                "title" : "Once upon a time"
+            },
+            "geometry" : {
+                "type": "Point",
+                "coordinates": [-114.138359,51.101948]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties": {
+                "bookId": "AAA123",
+                "Author" : "Bob",
+                "Address" : "140 Northmount Drive NW",
+                "title" : "Life is in transition"
+            },
+            "geometry" : {
+                "type": "Point",
+                "coordinates": [-114.13150761326159,51.093968223252155]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties": {
+                "bookId": "BBB123",
+                "Author" : "Tom",
+                "Address" : "Inverness Park SE",
+                "title" : "Freight Train"
+            },
+            "geometry" : {
+                "type": "Point",
+                "coordinates": [-113.97286900202549,50.913244447041066]
+            }
+        }
+    ]
+}
